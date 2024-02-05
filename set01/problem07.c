@@ -13,7 +13,7 @@ int input_n()
     int x;
     printf("Enter the number of natural numbers you want to add\n");
     scanf("%d",&x);
-    return X;
+    return x;
 }
 int sum_n_nos(int n)
 {
