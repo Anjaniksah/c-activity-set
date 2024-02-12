@@ -42,7 +42,7 @@ void output(int n, int a[n],int sum)
     printf("The entered numbers are\n");
     for(int i=0;i<n;i++)
     {
-        printf("%d",a[i];)
+        printf("%d",a[i]);
     }
 }
 

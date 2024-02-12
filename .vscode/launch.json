@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/sahan/OneDrive/Documents/GitHub/c-activity-set/set01",
-      "program": "c:/Users/sahan/OneDrive/Documents/GitHub/c-activity-set/set01/build/Debug/outDebug",
+      "cwd": "c:/Users/sahan/OneDrive/Documents/GitHub/c-activity-set/set02",
+      "program": "c:/Users/sahan/OneDrive/Documents/GitHub/c-activity-set/set02/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
