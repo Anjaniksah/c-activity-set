@@ -7,7 +7,7 @@ typedef struct _complex Complex;
 
 int get_n()
 {
-    int n ;
+    int n;
     printf("Enter the number of complex numbers:\n ");
     scanf("%d",&n);
     return n;
