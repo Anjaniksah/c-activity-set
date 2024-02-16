@@ -9,7 +9,7 @@ int input_array_size()
 void input_array(int n, int a[n])
 {
      printf("Enter the elements of the array:\n");
-    for (int i = 0; i < n; i++) 
+    for(int i=0;i<n;i++) 
     {
         scanf("%d", &a[i]);
     }
@@ -23,7 +23,8 @@ void input_array(int n, int a[n])
       {
       for(int j=2;j<=a[i]/2;j++)
       {
-        if(a[i]%j==0){
+        if(a[i]%j==0)
+        {
          sum+=a[i];
          break;
         }
