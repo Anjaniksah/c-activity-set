@@ -20,7 +20,7 @@ else
 }
 void output(int n,int fibo)
 {
-    printf("The %dth number in Fibonacci sequence is:%d\n",n fibo);
+    printf("The %dth number in Fibonacci sequence is:%d\n",n ,fibo);
 }
 int main()
 {
