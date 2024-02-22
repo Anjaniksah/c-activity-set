@@ -14,8 +14,8 @@ int find_fibo(int n)
     return n;
 else
 {
-   fibo=find_fibo(n-1)+find_fibo(n-2);
-    return fibo;
+     return  find_fibo(n-1)+find_fibo(n-2);
+     
 }
 }
 void output(int n,int fibo)
