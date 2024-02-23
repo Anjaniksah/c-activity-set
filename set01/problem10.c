@@ -12,6 +12,7 @@ int main()
     output(string1, string2, result);
     return 0;
 }
+
 void input_two_strings(char *string1, char *string2) 
 {
     printf("Enter the first string:\n");
@@ -19,6 +20,7 @@ void input_two_strings(char *string1, char *string2)
     printf("Enter the second string:\n");
     scanf("%s", string2);
 }
+
 int stringcompare(char *string1, char *string2) 
 {
     while (*string1 != '\0' && *string2 != '\0') 
@@ -31,6 +33,7 @@ int stringcompare(char *string1, char *string2)
     }
     return *string1 - *string2;
 }
+
 void output(char *string1, char *string2, int result) 
 {
     printf("You entered:\n");
@@ -48,3 +51,7 @@ void output(char *string1, char *string2, int result)
         printf("String 1 is greater than String 2\n");
     }
 }
+
+
+
+
