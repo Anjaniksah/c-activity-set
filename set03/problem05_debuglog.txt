@@ -1,0 +1,57 @@
+Microsoft Windows [Version 10.0.19045.4046]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set>cd "c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set03"
+
+c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set03>gcc -g "c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set03\problem05.c" -o "c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set03\problem05.exe" 2>&1
+
+c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set03>"c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set03\problem05.exe"
+The system cannot execute the specified program.
+
+c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set03>git add .
+warning: in the working copy of 'set03/problem05_compile_errors.txt', LF will be replaced by CRLF the next time Git touches it
+
+c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set03>git commit -m "committed 2/23/2024, 10:18:50 PM"
+[main b525379] committed 2/23/2024, 10:18:50 PM
+ 8 files changed, 55 insertions(+)
+ create mode 100644 set03/problem01_debuglog.txt
+ create mode 100644 set03/problem02_debuglog.txt
+ create mode 100644 set03/problem03_debuglog.txt
+ create mode 100644 set03/problem04_debuglog.txt
+ create mode 100644 set03/problem05_compile_errors.txt
+ create mode 100644 set03/problem05_debuglog.txt
+ create mode 100644 set03/problem06_debuglog.txt
+
+c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set03>git push
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (9/9), 1.28 KiB | 328.00 KiB/s, done.
+Total 9 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (5/5), completed with 4 local objects.
+To https://github.com/Anjaniksah/c-activity-set.git
+   f2f2be8..b525379  main -> main
+
+c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set03>cd "c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set03"
+
+c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set03>gdb ./problem05
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+./problem05: No such file or directory.
+(gdb) c
+The program is not being run.
+(gdb) set logging file problem05_debug.log
+(gdb) set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
+(gdb) set logging on
+Copying output to problem05_debug.log.
+(gdb) set trace-commands on
+(gdb)
