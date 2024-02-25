@@ -1,0 +1,59 @@
+Microsoft Windows [Version 10.0.19045.4046]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set>cd "c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set03"
+
+c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set03>gcc -g "c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set03\problem07.c" -o "c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set03\problem07.exe" 2>&1
+
+c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set03>"c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set03\problem07.exe"
+Enter the co-ordinates of the 1st point:
+ Enter the x and y co-ordinates: git add .
+Enter the co-ordinates of the 2nd point:
+ Enter the x and y co-ordinates: The distance between the points (0.000000,2916606539596984500000000000000000.000000) and (0.000000,2916606539596984500000000000000000.000000) is 0.000000
+c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set03>git commit -m "committed 2/25/2024, 11:48:01 PM"
+[main e234900] committed 2/25/2024, 11:48:01 PM
+ 13 files changed, 37 insertions(+)
+ create mode 100644 set01/problem02_debug.log
+ create mode 100644 set01/problem03_debuglog.txt
+ create mode 100644 set01/problem04_debuglog.txt
+ create mode 100644 set01/problem05_debuglog.txt
+ create mode 100644 set01/problem06_debuglog.txt
+ create mode 100644 set01/problem07_debuglog.txt
+ create mode 100644 set01/problem08_debuglog.txt
+ create mode 100644 set01/problem09_debuglog.txt
+ create mode 100644 set01/problem10_debuglog.txt
+ create mode 100644 set01/problem11_debuglog.txt
+ create mode 100644 set01/problem12_debuglog.txt
+
+c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set03>git push  
+To https://github.com/Anjaniksah/c-activity-set.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/Anjaniksah/c-activity-set.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use    
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set03>cd "c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set03"
+
+c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set03>gdb ./problem07
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set03\problem07.exe...done.
+(gdb) c
+The program is not being run.
+(gdb) set logging file problem07_debug.log
+(gdb) set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
+(gdb) set logging on
+Copying output to problem07_debug.log.
+(gdb) set trace-commands on
+(gdb)

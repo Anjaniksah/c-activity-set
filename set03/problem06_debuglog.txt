@@ -1,0 +1,51 @@
+Microsoft Windows [Version 10.0.19045.4046]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set>cd "c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set03"
+
+c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set03>gcc -g "c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set03\problem06.c" -o "c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set03\problem06.exe" 2>&1
+
+c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set03>"c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set03\problem06.exe"
+The system cannot execute the specified program.
+
+c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set03>git add .
+warning: in the working copy of 'set03/problem06_compile_errors.txt', LF will be replaced by CRLF the next time Git touches it
+
+c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set03>git commit -m "committed 2/24/2024, 7:13:27 PM"
+[main 71caa78] committed 2/24/2024, 7:13:27 PM
+ 3 files changed, 92 insertions(+)
+ create mode 100644 set03/problem06_compile_errors.txt
+
+c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set03>git push
+Enumerating objects: 10, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 1.84 KiB | 1.84 MiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Anjaniksah/c-activity-set.git
+   b525379..71caa78  main -> main
+
+c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set03>cd "c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set03"
+
+c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set03>gdb ./problem06
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+./problem06: Invalid argument.
+(gdb) c
+The program is not being run.
+(gdb) set logging file problem06_debug.log
+(gdb) set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
+(gdb) set logging on
+Copying output to problem06_debug.log.
+(gdb) set trace-commands on
+(gdb) 
