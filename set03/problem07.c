@@ -1,51 +1,30 @@
-#include <stdio.h>
-#include <math.h>
-struct point
+#include<stdio.h>
+typedef struct _triangle {
+	float base, altitude, area;
+} Triangle;
+
+Triangle input_triangle()
 {
-  float x, y;
-};
-typedef struct point Point;
-struct line
-{
-  Point p1, p2;
-  float distance;
-};
-typedef struct line Line;
-Point input_point()
-{
-  Point l;
-  printf("Enter the x and y co-ordinates: ");
-  scanf("%f %f", &l.x, &l.y);
-  return l;
+    Triangle t;
+    printf("Enter the base of the triangle:\n");
+    scanf("%f", &t.base);
+    printf("Enter the altitude of the triangle:\n");
+    scanf(" %f", &t.altitude);
+    return t;
 }
-Line input_line()
+void find_area(Triangle *t)
 {
-  Line l1;
-  printf("Enter the co-ordinates of the 1st point:\n ");
-  l1.p1 = input_point();
-  printf("Enter the co-ordinates of the 2nd point:\n ");
-  l1.p2 = input_point();
-  l1.distance = 0;
-  return l1;
+    t->area = 0.5*t->base*t->altitude;
 }
-void find_length(Line *l)
+void output(Triangle t)
 {
-  float dx, dy;
-  dx = l->p2.x - l->p1.x;
-  dy = l->p2.y - l->p1.y;
-  float area = (dx * dx) + (dy * dy);
- 
-  l->distance = sqrt(area);
-}
-void output(Line l)
-{
-  printf("The distance between the points (%f,%f) and (%f,%f) is %f", l.p1.x, l.p1.y, l.p2.x, l.p2.y, l.distance);
+    printf("The area of triangle with base=%f and altitude=%f is %f",t.base,t.altitude,t.area);
 }
 int main()
 {
-  Line L;
-  L = input_line();
-  find_length(&L);
-  output(L);
-  return 0;
+    Triangle triangle=input_triangle();
+    find_area(&triangle);
+    output(triangle);
+    return 0;
 }
+
