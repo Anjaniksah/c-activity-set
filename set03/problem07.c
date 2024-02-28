@@ -9,12 +9,13 @@ Triangle input_triangle()
     printf("Enter the base of the triangle:\n");
     scanf("%f", &t.base);
     printf("Enter the altitude of the triangle:\n");
-    scanf(" %f", &t.altitude);
+    scanf("%f", &t.altitude);
     return t;
+
 }
 void find_area(Triangle *t)
 {
-    t->area = 0.5*t->base*t->altitude;
+    t->area = (0.5)*(t->base)*(t->altitude);
 }
 void output(Triangle t)
 {
