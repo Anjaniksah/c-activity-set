@@ -60,3 +60,24 @@ Copying output to problem04_debug.log.
 Undefined command: "gcc".  Try "help".
 +"c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set04\problem04.exe"
 Undefined command: "".  Try "help".
++git add .
+Undefined command: "git".  Try "help".
++git commit -m "committed 3/3/2024, 2:28:21 PM"
+Undefined command: "git".  Try "help".
++git push
+Undefined command: "git".  Try "help".
++cd "c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set04"
+"c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set04": Invalid argument.
++gdb ./problem04
+Undefined command: "gdb".  Try "help".
++c
+The program is not being run.
++set logging file problem04_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to problem04_debug.log.
++set trace-commands on
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
++set loggin off
