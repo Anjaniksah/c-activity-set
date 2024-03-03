@@ -54,4 +54,9 @@ Undefined set logging command: "enabled on".  Try "help set logging".
 (gdb) set logging on
 Copying output to problem04_debug.log.
 (gdb) set trace-commands on
-(gdb)
+(gdb)+cd "c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set04"
+"c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set04": Invalid argument.
++gcc -g "c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set04\problem04.c" -o "c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set04\problem04.exe" 2>&1
+Undefined command: "gcc".  Try "help".
++"c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set04\problem04.exe"
+Undefined command: "".  Try "help".
