@@ -1,0 +1,57 @@
+Microsoft Windows [Version 10.0.19045.4046]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set>cd "c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set04"  
+
+c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set04>gcc -g "c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set04\problem04.c" -o "c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set04\problem04.exe" 2>&1
+
+c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set04>"c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set04\problem04.exe"
+Enter degree of poly: 1
+Enter value for coeff: 1 1
+Enter value for coeff: Enter x: 1
+Polynomial coefficients:
+1.00x^1 + 1.00x^0
+Result of polynomial evaluation at x = 1.00 is: 2.00
+
+c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set04>git add .
+warning: in the working copy of 'set04/problem04_compile_errors.txt', LF will be replaced by CRLF the next time Git touches 
+it
+
+c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set04>git commit -m "committed 3/3/2024, 2:26:22 PM"
+[main 68c22a0] committed 3/3/2024, 2:26:22 PM
+ 2 files changed, 61 insertions(+)
+ create mode 100644 set04/problem04_compile_errors.txt
+
+c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set04>git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 905 bytes | 905.00 KiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Anjaniksah/c-activity-set.git
+   d7b1855..68c22a0  main -> main
+
+c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set04>cd "c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set04"
+
+c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set04>gdb ./problem04
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set04\problem04.exe...done.
+(gdb) c
+The program is not being run.
+(gdb) set logging file problem04_debug.log
+(gdb) set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
+(gdb) set logging on
+Copying output to problem04_debug.log.
+(gdb) set trace-commands on
+(gdb)
