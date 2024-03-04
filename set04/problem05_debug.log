@@ -1,3 +1,93 @@
 +set logging enabled off
 Undefined set logging command: "enabled off".  Try "help set logging".
 +set loggin off
+
+Microsoft Windows [Version 10.0.19045.4046]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set>cd "c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set04"
+
+c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set04>gcc -g "c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set04\problem05.c" -o "c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set04\problem05.exe" 2>&1
+
+b\c-activity-set\set04\problem05.exe"              -set\set04>"c:\Users\sahan\OneDrive\Documents\GitHub\c
+pls enter array size: 4
+pls enter array element:
+2
+pls enter array element:
+9
+pls enter array element:
+1
+pls enter array element:
+7
+1 has the largest element
+c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set04>git add .                               -set\set04>
+
+c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set04>git commit -m "committed 3/4/2024, 1:51:32 PM"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set04>git push
+Everything up-to-date
+
+c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set04>cd "c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set04"
+
+c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set04>gdb ./problem05
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set04\problem05.exe...done.
+(gdb) c
+The program is not being run.
+(gdb) set logging file problem05_debug.log
+(gdb) set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
+(gdb) set logging on
+Copying output to problem05_debug.log.
+(gdb) set trace-commands on
+(gdb) set logging enabled off
++set logging enabled off
+Undefined set logging command: "enabled off".  Try "help set logging".
+(gdb) set loggin off
++set loggin off
+Done logging to problem05_debug.log.
+(gdb) q
++q
+
+c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set04>git add .
+
+c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set04>git commit -m "committed 3/4/2024, 1:52:17 PM"
+[main 65a3bea] committed 3/4/2024, 1:52:17 PM
+ 1 file changed, 3 insertions(+)
+ create mode 100644 set04/problem05_debug.log
+
+c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set04>git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 437 bytes | 437.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Anjaniksah/c-activity-set.git
+   47c92b7..65a3bea  main -> main
+
+c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set04>git add .
+
+c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set04>git commit -m "committed 3/4/2024, 1:52:23 PM"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set04>git push
+Everything up-to-date
+
+c:\Users\sahan\OneDrive\Documents\GitHub\c-activity-set\set04>
